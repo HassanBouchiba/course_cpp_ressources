@@ -1,0 +1,3 @@
+add_executable(test_int_stack test_int_stack.cc )
+target_link_libraries(test_int_stack mareva_lib_s)
+set_target_properties(test_int_stack PROPERTIES FOLDER "applications")
